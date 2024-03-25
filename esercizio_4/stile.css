@@ -1,0 +1,85 @@
+
+h2{
+    color: #502B0F;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #502B0F;
+}
+main {
+    background-color: #946d43;
+}
+h1 {
+    font-size: 30px;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-align: center;
+}
+img{
+    width: 100%;
+    max-width: fit-content;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0;
+    border: 5px solid #502B0F;
+    margin: 5px auto;
+    padding: 5px 5px;
+}
+a:hover {
+    color:white;
+}
+a {
+    color: #D9C19D;
+    text-decoration: none;
+}
+footer {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    background-color:#502B0F;
+    color: #D9C19D;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". img1 ." "img2 . img3"
+    "img4 img5 img6";
+
+}
+.box1 {
+    grid-area: ;
+}
+.box2 {
+    grid-area: img2;
+}
+.box3 {
+    grid-area: img3;
+}
+.box4 {
+    grid-area: img4;
+}
+.box5{
+    grid-area: img5;
+}
+.box6{
+    grid-area: img6;
+}
