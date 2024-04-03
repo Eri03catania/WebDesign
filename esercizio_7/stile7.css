@@ -1,0 +1,35 @@
+.box {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 136);
+    padding: 3vw;
+    width: 200px;
+    height: 100px; 
+    text-align: center;
+}
+.box:hover {
+    background-color: rgb(21, 255, 0);
+    color: black;
+    transform: translate(50px)
+}
+.box2 {
+    width: 200px;
+    height: 100px; 
+    padding: 3vw;
+    animation-name: quadrato;
+    background-color: blue;
+    color: white;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes quadrato {
+    0%{
+        background-color: red ;
+    }
+    50%{
+        background-color: rgb(1, 1, 255) ;
+    }
+    100%{
+        background-color: rgb(255, 0, 0) ;
+    }
+}
