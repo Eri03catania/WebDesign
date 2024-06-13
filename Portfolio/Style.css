@@ -68,13 +68,13 @@ h2{
 }
 p{
     color:#064469;
-    font-size: 16px;
+    font-size: 24px;
 }
 .intro p {
     max-width: 600px;
     margin: 0 auto;
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 24px;
 }
 .line{
     border: 2px;
@@ -88,7 +88,7 @@ p{
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
-    background-color: #064469;
+    background-color: #5790AB;
     border-radius: 20px;
 }
 .experience-item, .software-item {
@@ -154,6 +154,7 @@ p{
     margin-bottom: 20px;
 }
 .skill-item h3 {
+    font-size: 32px;
     margin-bottom: 10px;
     color: #003366;
 }
@@ -257,32 +258,23 @@ footer {
     border-radius: 5px;
 }
 /*Disegno Digitale*/
-.text-align{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 .text{
-    display: grid;
-    grid-template-columns: repeat();
-    align-items: center;
     text-align: center;
 }
 .photo-grid2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
     background-color: #5790AB;
     border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
 .image2{
-    align-items: center;
-    width: 90%;
+    width: 60%;
     height: auto;
+    max-width: 300px;
+    margin-left: 100px;
 }
-.draw-text, .draw1{
+.draw-text{
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
@@ -353,15 +345,18 @@ footer {
     height: auto;
     padding: 10px;
 }
-.content2 .voice , .click {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color:#5790AB;
+.content2, .voice , .click {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    background-color: #5790AB;
     border-radius: 20px;
+}
+.click{
+    margin-top: auto;
+    align-items: center;
+    background-color: #064469;
 }
 a {
     color: #fff;
@@ -375,14 +370,11 @@ a:hover {
 .content3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left:auto;
-    margin-right: auto;
-    justify-content: center;
     width: 60%;
-    height: 50%;
+    height: auto;
 }
 .AB{
     background-color: #003366;
@@ -480,7 +472,7 @@ a:hover {
         justify-content: space-around;
         padding: 20px;
         margin: 20px;
-        background-color: #064469;
+        background-color: #5790AB;
         border-radius: 20px;
     }
     .experience-item, .software-item {
@@ -666,16 +658,13 @@ a:hover {
         align-items: center;
         background-color: #5790AB;
         border-radius: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
     }
     .image2 {
         align-items: center;
-        width: 90%;
+        width: 60%;
         height: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 30px;
+    
     }
     .draw-grid, .description {
         display: grid;
@@ -721,25 +710,20 @@ a:hover {
         color: white;
     }
     .container2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        width: 80%;
+        width: 70%;
         margin-left: 15px;
     }
     .content {
-        display: block;
-        margin-left: 10px;
-        margin-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         gap: 2px;
-        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin-right: 20px;
     }
     .content2 .voice .click {
         display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
         background-color: #5790AB;
         border-radius: 20px;
@@ -851,9 +835,9 @@ a:hover {
     .experience {
         display: flex;
         justify-content: space-around;
-        padding: 20px;
-        margin: 20px;
-        background-color: #064469;
+        padding: 10px;
+        margin: 10px;
+        background-color: #5790AB;
         border-radius: 20px;
     }
     .experience-item, .software-item {
@@ -861,20 +845,18 @@ a:hover {
     }
     .experience-item h2, h2, li {
         color: white;;
-        font-size: 14px;
-        text-align: center;
-        border-radius: 5px 5px 0 0;
+        font-size: 14px;;
     }
     .software-logos {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 5px;
-        padding: 10px;
+        gap: 20px;
+        padding: 5px;
     }
     .software-logos img {
-        width: 50px;
-        height: 50px;
+        width: 30px;
+        height: auto;
     }
     .image-grid-container h3 {
         display: flex;
@@ -884,9 +866,9 @@ a:hover {
     .image-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 5px;
+        gap: 10px;
         background-color: #5790AB;
-        border-radius: 20px;
+        
     }
     .image-grid img {
         width: 50px;
@@ -1029,9 +1011,6 @@ a:hover {
         margin-right: 30px;
     }
     /*Disegno Digitale*/
-    .text {
-        text-align: center;
-    }
     .photo-grid2 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1039,26 +1018,24 @@ a:hover {
         align-items: center;
         background-color: #5790AB;
         border-radius: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
     }
     .image2 {
         align-items: center;
-        width: 90%;
+        width: 60%;
         height: auto;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20%;
+        padding: 2px;
+    }
+    .draw-text{
+        text-align: justify;
     }
     .draw-grid, .description {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 5px;
-        text-align: center;
         color: #003366;
-        margin-right: 130px;
-        margin-left: 12px;
-        width: 80%;
+        width: 90%;
+        padding: 2px;
     }
     /*Layout*/
     .layout2 p {
@@ -1097,7 +1074,7 @@ a:hover {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        width: 80%;
+        width: 50%;
         margin-left: 15px;
     }
     .content {
@@ -1107,15 +1084,18 @@ a:hover {
         gap: 2px;
         align-items: center;
     }
-    .content2 .voice .click {
+    .content2, .voice .click {
         display: block;
+        align-items: center;
+        margin-right: 20px;
+        gap: 5px;
+        align-items: center;
+        padding: 20px;
+    }
+    .click{
         margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
-        background-color: #5790AB;
-        border-radius: 20px;
+        display: block;
     }
     a {
         color: #fff;
@@ -1128,7 +1108,7 @@ a:hover {
     .content3 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5px;
+        gap: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
